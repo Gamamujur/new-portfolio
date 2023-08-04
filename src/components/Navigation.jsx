@@ -55,7 +55,7 @@ const Navigation = ({ setmodal }) => {
       </div>
       {/* Navbar for desktop */}
       <nav
-        className={`fixed top-0 z-20 hidden w-screen bg-transparent h-14 md:flex md:justify-between md:items-center md:px-16 ${navclasses}`}
+        className={`fixed top-0 z-20 hidden w-screen h-14 md:flex md:justify-between md:items-center md:px-16 ${navclasses}`}
       >
         <div className="flex items-center md:justify-start">
           

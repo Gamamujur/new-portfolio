@@ -27,7 +27,7 @@ const About = () => {
 
   const desc = {
     first: `I'm a Web Developer who enjoys learning about web development. I graduated with a Bachelor's Degree in Information System in 2022 and have since been involved in web application.`,
-    second: `My journey in web development began with PHP and MySQL, where I completed my initial projects. Since then, I have continuously expanded my skill set. Currently, I primarily work with Laravel, MySQL, and JQuery, while also exploring full-stack web development with ReactJS and NextJS. I'm always eager to apply my knowledge and expertise to real-world projects.`,
+    second: `My journey in web development began with PHP and MySQL, where I completed my initial project. Since then, I have continuously expanded my skill set. Currently, I primarily work with Laravel, MySQL, and JQuery, while also exploring full-stack web development with React JS and Next JS. I'm always eager to apply my knowledge and expertise to real-world projects.`,
   };
 
   const experiencedSkills = [

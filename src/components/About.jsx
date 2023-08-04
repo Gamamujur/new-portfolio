@@ -58,7 +58,7 @@ const About = () => {
   }, [isView]);
 
   useEffect(() => {
-    console.log("sampe", isView2);
+    
     if (isView2) {
       startanimateskills.start(slideComp({ x2: 0 }).animate);
       startanimateskills2.start(slideComp({ x2: 0, delay: 1 }).animate);

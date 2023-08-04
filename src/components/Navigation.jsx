@@ -12,7 +12,7 @@ const Navigation = ({ setmodal }) => {
 
   const navclasses =
     scrollPosition > 100
-      ? "bg-neutral-900/70 backdrop-blur-md transition duration-500"
+      ? "bg-neutral-800/70 backdrop-blur-md transition duration-500"
       : "transition duration-500";
 
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ const Navigation = ({ setmodal }) => {
   return (
     <>
       <div
-        className={`fixed top-0 z-50 w-screen bg-transparent h-14 md:hidden ${navclasses}`}
+        className={`fixed top-0 z-50 w-screen h-14 md:hidden ${navclasses}`}
       >
         <div className="flex items-center justify-end w-full h-full pr-2">
           <button
